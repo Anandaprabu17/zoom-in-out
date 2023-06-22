@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (min-width:320px) {
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media (min-width:620px) {
+    .container {
+        width: 85%;
+        margin: auto;
+    }
+}
+
+@media (min-width:960px) {
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+img {
+    width: 500px;
+    height: auto;
+}
+
+button {
+    padding: 7px 25px;
+}
